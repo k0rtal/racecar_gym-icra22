@@ -27,6 +27,7 @@ class VehicleSpec(YamlDataClassConfig):
 class WorldSpec(YamlDataClassConfig):
     name: str = None
     rendering: bool = False
+    gravity: float = 9.8
 
 
 @dataclass
