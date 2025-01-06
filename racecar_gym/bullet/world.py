@@ -31,7 +31,7 @@ class World(world.World):
         map_config: MapConfig
         rendering: bool
         time_step: float
-        gravity: float
+        gravity: float #####check#####
 
     def __init__(self, config: Config, agents: List[Agent]):
         self._config = config
