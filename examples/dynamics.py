@@ -28,7 +28,7 @@ def get_image(carId):
         viewMatrix=view_matrix,
         projectionMatrix=proj_matrix)
 
-
+#####check#####
 p.connect(p.GUI)
 p.setAdditionalSearchPath(pybullet_data.getDataPath())  # used by loadURDF
 
